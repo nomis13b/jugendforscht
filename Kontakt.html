@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Your Map Design</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="Kontakt.css">
+    </head>
+    <body>
+        <header>                                                             <!--Kopfzeile-->
+                <div class="Login"><a class="Login2" href="#">Login</a></div><!--Login Link rechts oben-->
+            <div  class="bannerunterschrift">                                <!--Kasten mit Banner und Text-->
+                <img class="Banner"src="Bilder/Banner4.jpg" alt="Banner"/>   <!--Banner bild-->
+                <span>Your Map Design</span>                                 <!--Banner Text-->
+            </div>
+            <div class="Navigation">                                         <!--Kasten um navigationsliste-->
+                <ul>
+                    <li><a href="index.html">Home</a></li>                   <!--Reiter Home -->
+                    <li><a href="Info.html">Info</a></li>                    <!--Reiter Info-->
+                    <li><a href="#">Karte</a></li>                           <!--Reiter Karte-->
+                    <li><a href="#">Kontakt</a></li>                         <!--Reiter Kontakt-->
+                    <li><a href="Impressum.html">Impressum</a></li>          <!--Reiter Impressum-->
+                </ul>
+            </div>
+        </header>                                                            <!--Kopfzeile zuende-->
+        <section>                                                            <!--Beginn Navigationsleiste-->
+            <div class="Rand">                                               <!--Kasten linkes Hintergrundbild-->
+                <img class="Seite" src="Bilder/grau1.jpg" alt="grau"/>       <!--Linkes Hintergrundbild-->
+            </div>          
+            <div class="Rand2">                                              <!--Kasten rechtes Hintergrundbild-->
+                <img class="Seite2" src="Bilder/grau2.jpg" alt="grau"/>      <!--Rechtes Hintergrundbild-->
+            </div>
+        </section>                                                           <!--Ende Navigationsleiste-->
+        <section><!------------------------------------------------------------------------------------------------------------------------------------->
+            <div id="kontaktformular" style="width: 500px">
+                    <form action="kontakt.php" method="post">
+                        Name: <input name="name" size="40"><br /><br>
+                        E-Mail: <input name="email" size="40"><br /><br>
+                        Betreff: <select name="betreff" size="1"><br><br>
+                                <option>Hilfe</option>
+                                <option>Kritik</option>
+                                <option>Linktausch</option>
+                                <option>Werbung</option>
+                                <option>Sonstiges</option>
+                            </select><br /><br><br>
+                        Nachricht: <br /><br>
+                        <textarea name="text" cols="60" rows="20"></textarea><br />
+                        <input name="submit" type="submit" value="absenden">
+                        <div style="clear:both;"></div>
+                    </form>
+                </div>                                                                                      <!--Ende Kasten Kontaktformular-->
+        </section>
+        <section>
+            <div class="test">                                                                          <!--Kasten Test für scrollen test-->
+                <p>    </p>                                                                             <!--Leerer Paragraph zum scroll test-->
+            </div>                                                                                      <!--Ende Kasten Test für scrollen-->
+        </section>  
+        
+    </body>
+</html>

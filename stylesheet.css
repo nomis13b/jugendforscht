@@ -1,0 +1,114 @@
+.Banner {
+    position: relative;
+    width: 110%;
+    opacity: 0.9;
+}
+
+.bannerunterschrift  {
+    display: block;
+    position: relative;
+}
+
+.bannerunterschrift span {
+    background-color: red;
+    position: absolute;
+    bottom:18%;
+    width: 110%;
+    line-height: 2.8em;
+    background-color: silver;
+    background-color: hsla(0, 0%, 100%, 0.5);
+    font-size: 70px;
+    padding-left: 38%;
+}
+
+.bannerunterschrift img {
+    display: block;
+}
+
+.Navigation{
+    width: 33.47%;
+    margin-left: 34%;
+    position: relative;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+    border-right: 1px solid #bbb;
+    width: 19.84%;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
+
+
+.Seite {
+    display: block;
+    position: absolute;
+    width: 22%;
+    height: 1015px;
+    position: fixed;
+    z-index: -3;
+    margin-top: 3px;
+    opacity: 0.85;
+}
+
+.Seite2 {
+    display: block;
+    position: absolute;
+    width: 22%;
+    height: 1015px;
+    position: fixed;
+    z-index: -3;
+    margin-top: 3px;
+    margin-left: 79%;
+    opacity: 0.85;
+}
+
+.Rand {
+    position: absolute;
+    display: block;
+    top: 5px;
+
+
+}
+
+.Rand2 {
+    position: absolute;
+    display: block;
+    top: 5px;
+}
+
+.test {
+    height: 6000px;
+}
+
+.Login {
+    position: absolute;
+    margin-left: 96%;
+    z-index: 7;
+    margin-top: 8px;
+}
+
+.Login2 {
+    color:grey;
+    text-decoration: none;
+    text-decoration: underline;
+}
